@@ -15,14 +15,6 @@ Application full-stack de gestion de contenu : grille **Type × Domaine** avec s
 
 ### 1. Supabase
 
-1. Crée un projet sur [supabase.com](https://supabase.com) (gratuit)
-2. Dans **SQL Editor**, colle et exécute le contenu de `supabase-setup.sql`
-3. Dans **Storage**, crée un bucket **`content-matrix`** (public)
-4. Dans **Settings → API**, copie :
-   - `Project URL`
-   - `service_role` key (pour le serveur)
-   - `anon` key (optionnel)
-
 ### 2. Serveur (Node.js)
 
 ```bash
