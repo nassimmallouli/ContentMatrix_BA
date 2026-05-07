@@ -31,6 +31,8 @@ npm run dev
 ```bash
 cd client
 npm install
+cp .env.example .env
+# If needed, keep VITE_API_BASE_URL pointed to your Render backend
 npm run dev
 # → http://localhost:3000
 ```
@@ -58,18 +60,18 @@ SUPABASE_BUCKET=content-matrix
 
 ## Fonctionnalités
 
-| Feature | Description |
-|---|---|
-| 🗂 Matrice Type × Domaine | Vue grille avec heatmap de densité |
-| 📋 Vue Liste | Tableau filtrable et triable |
-| 🖼 Vue Galerie | Grille de cartes avec aperçu |
-| ➕ Formulaire création | Texte / URL / Fichier (upload Supabase) |
-| 🖱 Drag & Drop | Dépose un fichier dans une cellule → upload auto |
-| 🌐 Drop global | Dépose n'importe où → sélecteur de domaine |
-| 🔍 Recherche + filtres | Par type, domaine, statut, texte libre |
-| 📤 Export / Import | JSON pour backup ou migration |
-| ♻️ Duplication | Clone rapide d'une fiche |
-| ☁️ Cloud sync | Supabase temps réel |
+| Feature                   | Description                                      |
+| ------------------------- | ------------------------------------------------ |
+| 🗂 Matrice Type × Domaine | Vue grille avec heatmap de densité               |
+| 📋 Vue Liste              | Tableau filtrable et triable                     |
+| 🖼 Vue Galerie            | Grille de cartes avec aperçu                     |
+| ➕ Formulaire création    | Texte / URL / Fichier (upload Supabase)          |
+| 🖱 Drag & Drop            | Dépose un fichier dans une cellule → upload auto |
+| 🌐 Drop global            | Dépose n'importe où → sélecteur de domaine       |
+| 🔍 Recherche + filtres    | Par type, domaine, statut, texte libre           |
+| 📤 Export / Import        | JSON pour backup ou migration                    |
+| ♻️ Duplication            | Clone rapide d'une fiche                         |
+| ☁️ Cloud sync             | Supabase temps réel                              |
 
 ## Types de contenu
 
@@ -81,10 +83,10 @@ SUPABASE_BUCKET=content-matrix
 
 ## Domaines
 
-| Groupe | Domaines |
-|---|---|
-| Métier | ISO, Gestion Projet, Transformation |
-| IT | Cybersécurité, Développement, Data, Applications |
+| Groupe | Domaines                                         |
+| ------ | ------------------------------------------------ |
+| Métier | ISO, Gestion Projet, Transformation              |
+| IT     | Cybersécurité, Développement, Data, Applications |
 
 ---
 
